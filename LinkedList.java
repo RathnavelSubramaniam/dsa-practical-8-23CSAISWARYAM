@@ -63,12 +63,9 @@ int data,data1;
     }       
      public void insertEnd(int data)
 {
-//Create a new node
 Node newNode = new Node(data);
-//Checks if the list is empty
 if(head == null)
 {
-//If the list is empty, both head and tail will point to new node
 head = newNode;
 tail = newNode;
 }
