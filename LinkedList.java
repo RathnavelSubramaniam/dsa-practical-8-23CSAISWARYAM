@@ -77,7 +77,7 @@ while( temp.next!= null)
 temp = temp.next;
 }
 temp.next=newNode;
-System.out.println("Element Inserted");
+System.out.println("ELEMENT INSERTED");
 }
 } 
 public void displayList() {
