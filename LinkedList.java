@@ -60,11 +60,20 @@ int data,data1;
             list.displayList();
           }
         }
-    }
-      public void insertEnd(int data) 
-    {    
-       //TYPE YOUR CODE HERE 
-    }  
+    }       
+      public void insertEnd(int data)
+      {
+        Node newNode = new Node(data);
+        if (head == null)
+        {
+          head = newNode;
+          tail = newNode;
+        }
+        else{
+          tail.next = newNode;
+          tail = newNode;
+        }
+      }
      
 public void displayList() {
         Node current = head;
